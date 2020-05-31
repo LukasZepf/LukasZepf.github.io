@@ -1,0 +1,91 @@
+body {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	background-image: url("Background.jpg");
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+a {
+	color: rgb(0, 72, 206);
+	text-decoration: none;
+	font-size: large;
+	font-weight: bold;
+	background-color: lightgray;
+}
+
+a:hover {
+	color: crimson;
+	text-decoration: underline;
+}
+
+img.dynamicwidth {
+	width: 100%;
+	height: auto;
+}
+
+blockquote {
+	display: block;
+	border-left: 3px solid crimson;
+	color: dimgrey;
+	font-style: italic;
+	margin: 10px 5px;
+	padding: 2px 7px;
+}
+
+table {
+	background-color: #eee;
+}
+
+thead {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: crimson;
+}
+
+tr, td {
+	padding: 3px;
+}
+
+#page {
+	margin: 0 auto;
+	max-width: 80%;
+}
+
+.center {
+	margin: 0px auto;
+}
+
+.block {
+	display: block;
+}
+
+.post p{
+	color: rgb(0, 0, 0);
+	background-color: lightgrey;
+}
+
+.post span {
+	color: red;
+	font-weight: bold;
+	background-color: lightgray;
+}
+
+.post a h2 {
+	background-color: lightgrey;
+	display: block;
+}
+
+time {
+	color: rgb(0, 0, 0);
+	background-color: lightgrey;
+}
+
+ul {
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
